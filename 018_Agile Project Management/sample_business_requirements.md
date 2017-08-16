@@ -19,9 +19,13 @@ Is included, ability to create account using required: custom username and passw
 ## Functional requirements
 
 First: Welcome page with User "Create account" button, that displays form fields to input new user information (Username, email, Password, Optional: Name(first and last), age. Also a submit form button to submit new user information. A confirmation email should be sent to the emial used to activate the account, once activated the user will be rederected to the home page.
+
 Second: Home page will have the most recent journal entry displayed, if no entry can be displayed a button will be in its place named "Leave Journal Entry". On the home page will be a responsive Navbar at the top of the screen, with Home, Leave Journal Entry, Reveiw Journal Entries and User Preferences.
+
 Third: Leave Journal Entry page will have a dynamic text inpu system with an current date and time that will be logged to the database with the log entry as a key to search by, there will also be an input to enter the emotion the user is feeling at time they leave the entry (requred to leave entry), as well as an input to leave the location the user is at when leaving the entry (optional for the user), and lastly a large text field for the journal entry itself, with a "Submit Entry" button right below the journal entry text field.
+
 Fourth: Reveiw Journal Entries should have a search input with placeholder "Search" and a "Search" button beside it. The user will be able to search past entries using the Emotion, Location, Date key labels as well as exact phrases of 3 words or more. The page will dynamically show all entries with the corresponding label or matching phrase, if there are more than 10 results the page will display a "Next page" link which will take the user the the next 10 results, ect.... until the user gets to the end of the list, Once on the "Next Page" a "Previous Page" link will also be displayed. 
+
 Fith: User Preferences will have the option to change username, password, or email, it will also allow the user to choose a color scheme for there account.
 
 
